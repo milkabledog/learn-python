@@ -1,0 +1,10 @@
+xuser = int(input("enter a number: "))   #input from user
+if xuser%2==0 or xuser%xuser==0:       #conditional statement 
+
+    print("given number is prime") #result
+elif xuser%2!=0 or xuser%xuser!=0: #conditional statement
+
+    print("given number is not prime") #result
+else:
+
+    print("wrong input error") #result
